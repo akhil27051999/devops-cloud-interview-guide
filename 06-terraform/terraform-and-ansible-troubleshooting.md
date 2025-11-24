@@ -90,11 +90,11 @@ terraform {
 - Enables collaborative team workflows.
 - Allows Terraform to calculate minimal changes.
 
-#### Real-world Insight
+### Real-world Insight
 
 Our team accidentally overwrote local state, causing duplicated EC2 instances. Switching to S3 backend with DynamoDB locking prevented concurrent modification issues.
 
-#### Key takeaway
+### Key takeaway
 
 State management is the backbone of Terraform, essential for collaboration, incremental updates, and drift detection.
 

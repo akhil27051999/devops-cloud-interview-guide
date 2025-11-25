@@ -47,15 +47,6 @@ Example alert:
   annotations:
     summary: "High DB connections"
 ```
-### Summary Table
-| Component         | Role                     |
-| ----------------- | ------------------------ |
-| PostgreSQL DB     | Source of metrics        |
-| postgres_exporter | Exposes DB metrics       |
-| Prometheus        | Scrapes & stores metrics |
-| Grafana           | Visualizes metrics       |
-| Alertmanager      | Sends alerts             |
-
 ### Real-world Insight
 
 We had pg_up=0 alerts because the exporter couldn’t connect due to a NetworkPolicy. Understanding the scrape flow helped fix it quickly.

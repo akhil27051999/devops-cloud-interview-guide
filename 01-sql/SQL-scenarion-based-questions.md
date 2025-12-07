@@ -1,6 +1,15 @@
 # SQL Query Examples — Student, Program, Scholarship Tables
 
 This README contains 45 example SQL queries using the Student, Program, and Scholarship tables. Each example includes the SQL query, the expected output (as provided), and a short explanation.
+## Student Table:
+<img width="917" height="240" alt="image" src="https://github.com/user-attachments/assets/edbd65c0-a07c-4924-bf1a-0a4bda8018d1" />
+
+## Program Table:
+<img width="907" height="241" alt="image" src="https://github.com/user-attachments/assets/e5a1adae-3fbe-42a7-9bc2-1ffe81a3c2c0" />
+
+## Scholarship Table:
+<img width="886" height="133" alt="image" src="https://github.com/user-attachments/assets/ccbc340d-969a-46a6-9e5c-76485b9decc1" />
+
 
 ---
 

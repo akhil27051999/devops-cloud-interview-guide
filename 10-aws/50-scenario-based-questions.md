@@ -13,66 +13,66 @@ Use these as runbook snippets during interviews, projects, or real tickets.
 ---
 
 ## Table of Contents
-- EC2 (Compute)
-  1. EC2 instance won’t start
-  2. Can’t SSH into EC2
-  3. EC2 instance terminating immediately
-  4. High CPU on EC2
-  5. Elastic IP assigned but unreachable
-- S3 (Storage)
-  6. S3 “Access Denied”
-  7. S3 static website 403 / 404
-  8. S3 Cross-Region Replication not working
-  9. Multipart upload stuck / incomplete
-  10. S3 performance bottlenecks (hot prefix)
-- RDS (Databases)
-  11. Can’t connect to RDS
-  12. RDS replication lag
-  13. RDS high CPU
-  14. RDS backup/restore failures
-  15. Failover takes too long
-- VPC / Networking
-  16. EC2 not reachable over internet (timeout)
-  17. Private subnet instance can’t access internet
-  18. VPC peering not working
-  19. DNS resolution failing in VPC
-  20. VPN tunnel down / BGP problems
-- IAM (Identity & Access)
-  21. IAM “Access Denied”
-  22. Root account access lost (MFA lost)
-  23. Service can’t assume IAM role
-  24. Overly permissive IAM policies
-  25. STS token / temporary credentials expired
-- Lambda (Serverless)
-  26. Lambda function times out
-  27. Deployment package too large
-  28. Lambda permissions denied
-  29. Cold-start latency
-  30. API Gateway returns 502/504 for Lambda integration
-- CloudFormation
-  31. Stack rollback on create
-  32. Stack stuck in UPDATE_ROLLBACK_FAILED
-  33. Resource limit exceeded when creating resources
-  34. Circular dependency in template
-  35. Drift detected (stack resources differ from template)
-- CloudWatch / Monitoring
-  36. CloudWatch alarm not triggering
-  37. Log stream not appearing in CloudWatch
-  38. High CloudWatch charges
-  39. Logs delayed / missing
-  40. EventBridge rule not firing
-- ECS / EKS (Containers)
-  41. ECS task not starting
-  42. ECS service unhealthy (ALB health checks)
-  43. EKS Pod CrashLoopBackOff
-  44. Kubeconfig not working for EKS
-  45. EKS node not joining cluster
-- Billing & Cost Management
-  46. Unexpected high bill
-  47. Savings Plan not applying
-  48. Free Tier unexpectedly used/expired
-  49. Reserved Instance (RI) not applied
-  50. Budgets not alerting
+#### EC2 (Compute)
+1. EC2 instance won’t start
+2. Can’t SSH into EC2
+3. EC2 instance terminating immediately
+4. High CPU on EC2
+5. Elastic IP assigned but unreachable
+#### S3 (Storage)
+6. S3 “Access Denied”
+7. S3 static website 403 / 404
+8. S3 Cross-Region Replication not working
+9. Multipart upload stuck / incomplete
+10. S3 performance bottlenecks (hot prefix)
+#### RDS (Databases)
+11. Can’t connect to RDS
+12. RDS replication lag
+13. RDS high CPU
+14. RDS backup/restore failures
+15. Failover takes too long
+#### VPC / Networking
+16. EC2 not reachable over internet (timeout)
+17. Private subnet instance can’t access internet
+18. VPC peering not working
+19. DNS resolution failing in VPC
+20. VPN tunnel down / BGP problems
+#### IAM (Identity & Access)
+21. IAM “Access Denied”
+22. Root account access lost (MFA lost)
+23. Service can’t assume IAM role
+24. Overly permissive IAM policies
+25. STS token / temporary credentials expired
+#### Lambda (Serverless)
+26. Lambda function times out
+27. Deployment package too large
+28. Lambda permissions denied
+29. Cold-start latency
+30. API Gateway returns 502/504 for Lambda integration
+#### CloudFormation
+31. Stack rollback on create
+32. Stack stuck in UPDATE_ROLLBACK_FAILED
+33. Resource limit exceeded when creating resources
+34. Circular dependency in template
+35. Drift detected (stack resources differ from template)
+#### CloudWatch / Monitoring
+36. CloudWatch alarm not triggering
+37. Log stream not appearing in CloudWatch
+38. High CloudWatch charges
+39. Logs delayed / missing
+40. EventBridge rule not firing
+#### ECS / EKS (Containers)
+41. ECS task not starting
+42. ECS service unhealthy (ALB health checks)
+43. EKS Pod CrashLoopBackOff
+44. Kubeconfig not working for EKS
+45. EKS node not joining cluster
+#### Billing & Cost Management
+46. Unexpected high bill
+47. Savings Plan not applying
+48. Free Tier unexpectedly used/expired
+49. Reserved Instance (RI) not applied
+50. Budgets not alerting
 
 ---
 
